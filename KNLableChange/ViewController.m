@@ -29,10 +29,9 @@
 //    self.tileLable.attributedText = [UILabel changeLineSpaceForLabel:@"安达看见你哭暗示大家看谁看见电脑开机啊啥的年纪看书的框架暗示健康啊啥的年纪看得见卡萨诺啊的年纪看那就开电脑开机啊" WithSpace:10];
 //
     //设置字体间距
-
-//
+    self.tileLable.attributedText = [UILabel changeWordSpaceForLabel:@"安达看见你哭暗示大家看谁看见电脑开机啊啥的年纪看书的框架暗示健康啊啥的年纪看得见卡萨诺啊的年纪看那就开电脑开机啊" WithSpace:2];
     //设置行间距和字体间距
- self.tileLable.attributedText = [UILabel changeSpaceForLabel:@"安达看见你哭暗示大家看谁看见电脑开机啊啥的年纪看书的框架暗示健康啊啥的年纪看得见卡萨诺啊的年纪看那就开电脑开机啊" withLineSpace:10 WordSpace:4];
+// self.tileLable.attributedText = [UILabel changeSpaceForLabel:@"安达看见你哭暗示大家看谁看见电脑开机啊啥的年纪看书的框架暗示健康啊啥的年纪看得见卡萨诺啊的年纪看那就开电脑开机啊" withLineSpace:10 WordSpace:4];
     
     
     [self.tileLable.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:10].active = YES;
