@@ -14,6 +14,7 @@
 		C20F9D181F95A9AB00C6BB28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20F9D161F95A9AB00C6BB28 /* LaunchScreen.storyboard */; };
 		C20F9D1B1F95A9AC00C6BB28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F9D1A1F95A9AC00C6BB28 /* main.m */; };
 		C20F9D241F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F9D231F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m */; };
+		C20F9D8C1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F9D8B1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C20F9D1A1F95A9AC00C6BB28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C20F9D221F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeLineSpaceAndWordSpace.h"; sourceTree = "<group>"; };
 		C20F9D231F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeLineSpaceAndWordSpace.m"; sourceTree = "<group>"; };
+		C20F9D8A1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChageTextColorAndFont.h"; sourceTree = "<group>"; };
+		C20F9D8B1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChageTextColorAndFont.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				C20F9D221F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.h */,
 				C20F9D231F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m */,
+				C20F9D8A1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.h */,
+				C20F9D8B1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m */,
 			);
 			path = KNLable;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 				C20F9D1B1F95A9AC00C6BB28 /* main.m in Sources */,
 				C20F9D241F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
 				C20F9D0D1F95A9AB00C6BB28 /* AppDelegate.m in Sources */,
+				C20F9D8C1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

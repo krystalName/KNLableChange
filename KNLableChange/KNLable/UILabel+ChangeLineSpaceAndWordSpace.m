@@ -30,7 +30,6 @@
     [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [labelText length])];
     return  attributedString;
     
-    
 }
 
 + (NSMutableAttributedString *)changeSpaceForLabel:(NSString *)title withLineSpace:(float)lineSpace WordSpace:(float)wordSpace {
