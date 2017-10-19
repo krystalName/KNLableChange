@@ -35,9 +35,21 @@
     //设置行间距和字体间距
 //  self.tileLable.attributedText = [UILabel changeSpaceForLabel:nil withLineSpace:10 WordSpace:4];
     
+    //设置内容中的颜色(指定部分)
+//    self.tileLable.attributedText = [UILabel ChageLableColorWihtString:@"打死那就看你就啊说的那句卡上～ 就啊可是能看到" WithColor:[UIColor blueColor] WithStart:2 WithEnd:6];
     
-    //设置字体颜色
-    self.tileLable.attributedText = [UILabel ChangeLableColorAndFontWithContent:@"我是谁？ 我是我啊～" changeString:@"我是" WithFont:[UIFont systemFontOfSize:18] WithColor:[UIColor redColor]];
+    
+    //设置内容中的字体大小(指定部分)
+//    self.tileLable.attributedText = [UILabel ChageLableFontWithString:@"打死那就看你就啊说的那句卡上～ 就啊可是能看到" WithFont:[UIFont systemFontOfSize:24] WithStart:1 WithEnd:5];
+    
+    //设置内容中的字体和颜色一起（指定部分）
+    self.tileLable.attributedText = [UILabel ChageLableColorAndFontWithString:@"打死那就看你就啊说的那句卡上～ 就啊可是能看到" WihtFont:[UIFont systemFontOfSize:24] WithColor:[UIColor redColor] WithStart:0 WithEnd:10];
+    
+    //设置首个字符串于内容字符串中相同的颜色和字体
+    // self.tileLable.attributedText = [UILabel ChageLableColorAndFontWithContent:@"我吃饭了。我喝酒了。我撒尿了～" FirstString:@"喝酒" WithFont:[UIFont systemFontOfSize:15] WithColor:[UIColor redColor]];
+    
+    //设置所有于内容字符串中的相同字符串颜色和字体
+//    self.tileLable.attributedText = [UILabel ChangeLableColorAndFontWithContent:@"我是谁？ 我是我啊～" changeString:@"我是" WithFont:[UIFont systemFontOfSize:18] WithColor:[UIColor redColor]];
 
     
     

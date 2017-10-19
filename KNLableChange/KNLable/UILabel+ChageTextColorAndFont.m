@@ -46,13 +46,16 @@
 +(NSMutableAttributedString *)ChageLableColorAndFontWithContent:(NSString *)content FirstString:(NSString *)FirstString WithFont:(UIFont *)font WithColor:(UIColor *)color
 {
     NSString *contentString = content ? content : @"";
+    
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:contentString];
     NSRange rang = [contentString rangeOfString:FirstString];
     [attributedString addAttribute:NSFontAttributeName value:font range:rang];
     [attributedString addAttribute:NSForegroundColorAttributeName value:color range:rang];
+    
     return attributedString;
     
 }
+
 
 +(NSMutableAttributedString *)ChangeLableColorAndFontWithContent:(NSString *)content changeString:(NSString *)changeString WithFont:(UIFont *)font WithColor:(UIColor *)color
 {
