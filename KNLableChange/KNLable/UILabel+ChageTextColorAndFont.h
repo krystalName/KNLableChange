@@ -59,4 +59,35 @@
 
 
 
+/**
+ 改变字符串中首个相同字符串的颜色和字体
+
+ @param content 内容
+ @param FirstString 改变的字符串内容
+ @param font 字体大小
+ @param color 颜色
+ @return 返回NSMutableAttributedString
+ */
++(NSMutableAttributedString *)ChageLableColorAndFontWithContent:(NSString *)content
+                                                    FirstString:(NSString *)FirstString
+                                                       WithFont:(UIFont *)font
+                                                      WithColor:(UIColor *)color;
+
+
+
+/**
+ 改变字符串中相同字符串要的颜色和字体(所有)
+
+ @param content 内容
+ @param changeString 要改变的内容
+ @param font 字体大小
+ @param color 字体颜色
+ @return 返回NSMutableAttributedString
+ */
++(NSMutableAttributedString *)ChangeLableColorAndFontWithContent:(NSString *)content
+                                                       changeString:(NSString *)changeString WithFont:(UIFont *)font
+                                                          WithColor:(UIColor *)color;
+
+
+
 @end

@@ -35,9 +35,9 @@
     //设置行间距和字体间距
 //  self.tileLable.attributedText = [UILabel changeSpaceForLabel:nil withLineSpace:10 WordSpace:4];
     
-
+    
     //设置字体颜色
-    self.tileLable.attributedText = [UILabel ChageLableColorAndFontWithString:@"提示:这是文字" WihtFont:[UIFont systemFontOfSize:19] WithColor:[UIColor redColor] WithStart:0 WithEnd:3];
+    self.tileLable.attributedText = [UILabel ChangeLableColorAndFontWithContent:@"我是谁？ 我是我啊～" changeString:@"我是" WithFont:[UIFont systemFontOfSize:18] WithColor:[UIColor redColor]];
 
     
     
