@@ -20,6 +20,19 @@
  @param end 结束位置
  @return 返回NSMutableAttributedString
  */
-+(NSMutableAttributedString *)AddLineForTitle:(NSString *)title AndColor:(UIColor *)color WithStart:(NSInteger)start WithEnd:(NSInteger)end;
++(NSMutableAttributedString *)AddDeleteLineWithTitle:(NSString *)title AndColor:(UIColor *)color WithStart:(NSInteger)start WithEnd:(NSInteger)end;
+
+
+/**
+ 添加一条下划线
+ 
+ @param title 内容
+ @param color 线条颜色
+ @param start 开始位置
+ @param end 结束位置
+ @return 返回NSMutableAttributedString
+ */
++(NSMutableAttributedString *)AddUnderLineWithTitle:(NSString *)title AddColorL:(UIColor *)color WirhStart:(NSInteger )start WithEnd:(NSInteger )end;
+
 
 @end
