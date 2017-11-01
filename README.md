@@ -29,3 +29,14 @@
     self.tileLable.attributedText = [UILabel ChageLableColorAndFontWithString:@"提示:这是文字" WihtFont:[UIFont systemFontOfSize:19] WithColor:[UIColor redColor] WithStart:0 WithEnd:3];
     
 ```
+
+#### 新增添加字体删除线。下划线。 使用代码如下
+
+``` objc
+
+//添加删除线
+self.tileLable.attributedText = [UILabel AddDeleteLineWithTitle:@"打死那就看你就啊说的那句卡上～ 就啊可是能看到" AndColor:[UIColor redColor] WithStart:1 WithEnd:5];
+    
+ //添加下划线
+self.tileLable.attributedText = [UILabel AddUnderLineWithTitle:@"打死那就看你就啊说的那句卡上～ 就啊可是能看到" AddColorL:[UIColor redColor] WirhStart:1 WithEnd:5];
+```
