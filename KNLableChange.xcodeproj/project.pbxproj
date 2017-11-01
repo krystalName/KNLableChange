@@ -15,6 +15,7 @@
 		C20F9D1B1F95A9AC00C6BB28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F9D1A1F95A9AC00C6BB28 /* main.m */; };
 		C20F9D241F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F9D231F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m */; };
 		C20F9D8C1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F9D8B1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m */; };
+		C24145C21FA9A363002B6AAE /* UILabel+AddLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C24145C11FA9A363002B6AAE /* UILabel+AddLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		C20F9D231F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeLineSpaceAndWordSpace.m"; sourceTree = "<group>"; };
 		C20F9D8A1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChageTextColorAndFont.h"; sourceTree = "<group>"; };
 		C20F9D8B1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChageTextColorAndFont.m"; sourceTree = "<group>"; };
+		C24145C01FA9A363002B6AAE /* UILabel+AddLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+AddLine.h"; sourceTree = "<group>"; };
+		C24145C11FA9A363002B6AAE /* UILabel+AddLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AddLine.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				C20F9D231F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m */,
 				C20F9D8A1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.h */,
 				C20F9D8B1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m */,
+				C24145C01FA9A363002B6AAE /* UILabel+AddLine.h */,
+				C24145C11FA9A363002B6AAE /* UILabel+AddLine.m */,
 			);
 			path = KNLable;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 			files = (
 				C20F9D101F95A9AB00C6BB28 /* ViewController.m in Sources */,
 				C20F9D1B1F95A9AC00C6BB28 /* main.m in Sources */,
+				C24145C21FA9A363002B6AAE /* UILabel+AddLine.m in Sources */,
 				C20F9D241F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
 				C20F9D0D1F95A9AB00C6BB28 /* AppDelegate.m in Sources */,
 				C20F9D8C1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m in Sources */,

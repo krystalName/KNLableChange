@@ -17,7 +17,6 @@
      NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:contentString];
     [attributedString addAttribute:NSForegroundColorAttributeName value:color range:NSMakeRange(start, end)];
     return attributedString;
-
 }
 
 
