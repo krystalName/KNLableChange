@@ -10,13 +10,16 @@
 #import "UILabel+ChangeLineSpaceAndWordSpace.h"
 #import "UILabel+ChageTextColorAndFont.h"
 #import "UILabel+AddLine.h"
-
+#import "UIColor+ImageColor.h"
 
 @interface ViewController ()
 
 
 @property(nonatomic, strong) UILabel *tileLable;
 
+@property(nonatomic, strong) UIView *bgView;
+
+@property(nonatomic, strong) UIImageView *demoImageView;
 
 @end
 
@@ -57,18 +60,43 @@
     
     //设置所有于内容字符串中的相同字符串颜色和字体
 //    self.tileLable.attributedText = [UILabel ChangeLableColorAndFontWithContent:@"我是谁？ 我是我啊～" changeString:@"我是" WithFont:[UIFont systemFontOfSize:18] WithColor:[UIColor redColor]];
-
-    
     
     [self.tileLable.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:10].active = YES;
     [self.tileLable.topAnchor constraintEqualToAnchor:self.view.topAnchor constant:44].active = YES;
    
     [self.tileLable.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor constant:-10].active = YES;
     
-
-
+        //设置一张图片
+    UIImage *image = [UIImage imageNamed:@"120"];
+    
+    //添加View
+    [self.view addSubview:self.bgView];
+    [self.demoImageView setImage:image];
+    
+    //使用分类。改变bgView 的颜色
+    [self.bgView setBackgroundColor:[UIColor getImageMainColor:image]];
+    
 }
 
+
+-(UIView *)bgView{
+    if (!_bgView) {
+        _bgView = [[UIView alloc]initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 70)];
+        [_bgView addSubview:self.demoImageView];
+    }
+    return _bgView;
+}
+
+-(UIImageView *)demoImageView{
+    if (!_demoImageView) {
+        _demoImageView = [[UIImageView alloc]initWithFrame:CGRectMake(10, self.bgView.bounds.size.height/2 - 25, 50, 50)];
+        _demoImageView.contentMode = UIViewContentModeScaleAspectFill;
+        _demoImageView.layer.masksToBounds = YES;
+        _demoImageView.layer.borderColor = [UIColor whiteColor].CGColor;
+        _demoImageView.layer.borderWidth = 1;
+    }
+    return _demoImageView;
+}
 
 -(UILabel *)tileLable{
     if (!_tileLable) {
