@@ -16,6 +16,7 @@
 		C20F9D241F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F9D231F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m */; };
 		C20F9D8C1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m in Sources */ = {isa = PBXBuildFile; fileRef = C20F9D8B1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m */; };
 		C24145C21FA9A363002B6AAE /* UILabel+AddLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C24145C11FA9A363002B6AAE /* UILabel+AddLine.m */; };
+		C2DFFB541FD0FAC000831398 /* UIColor+ImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DFFB531FD0FAC000831398 /* UIColor+ImageColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		C20F9D8B1F96FD6F00C6BB28 /* UILabel+ChageTextColorAndFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChageTextColorAndFont.m"; sourceTree = "<group>"; };
 		C24145C01FA9A363002B6AAE /* UILabel+AddLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+AddLine.h"; sourceTree = "<group>"; };
 		C24145C11FA9A363002B6AAE /* UILabel+AddLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AddLine.m"; sourceTree = "<group>"; };
+		C2DFFB521FD0FAC000831398 /* UIColor+ImageColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ImageColor.h"; sourceTree = "<group>"; };
+		C2DFFB531FD0FAC000831398 /* UIColor+ImageColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ImageColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 		C20F9D0A1F95A9AB00C6BB28 /* KNLableChange */ = {
 			isa = PBXGroup;
 			children = (
+				C2DFFB511FD0FA8100831398 /* KNColor */,
 				C20F9D211F95A9DC00C6BB28 /* KNLable */,
 				C20F9D0B1F95A9AB00C6BB28 /* AppDelegate.h */,
 				C20F9D0C1F95A9AB00C6BB28 /* AppDelegate.m */,
@@ -92,6 +96,15 @@
 				C24145C11FA9A363002B6AAE /* UILabel+AddLine.m */,
 			);
 			path = KNLable;
+			sourceTree = "<group>";
+		};
+		C2DFFB511FD0FA8100831398 /* KNColor */ = {
+			isa = PBXGroup;
+			children = (
+				C2DFFB521FD0FAC000831398 /* UIColor+ImageColor.h */,
+				C2DFFB531FD0FAC000831398 /* UIColor+ImageColor.m */,
+			);
+			path = KNColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +180,7 @@
 			files = (
 				C20F9D101F95A9AB00C6BB28 /* ViewController.m in Sources */,
 				C20F9D1B1F95A9AC00C6BB28 /* main.m in Sources */,
+				C2DFFB541FD0FAC000831398 /* UIColor+ImageColor.m in Sources */,
 				C24145C21FA9A363002B6AAE /* UILabel+AddLine.m in Sources */,
 				C20F9D241F95AA0A00C6BB28 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
 				C20F9D0D1F95A9AB00C6BB28 /* AppDelegate.m in Sources */,
