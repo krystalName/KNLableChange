@@ -40,3 +40,22 @@ self.tileLable.attributedText = [UILabel AddDeleteLineWithTitle:@"打死那就�
  //添加下划线
 self.tileLable.attributedText = [UILabel AddUnderLineWithTitle:@"打死那就看你就啊说的那句卡上～ 就啊可是能看到" AddColorL:[UIColor redColor] WirhStart:1 WithEnd:5];
 ```
+
+### 新添获取图片主色调的分类  效果如下
+
+![](https://github.com/krystalName/KNLableChange/blob/master/ImageMainColor.png)
+
+``` objc
+#import "UIColor+ImageColor.h"
+
+     //设置一张图片
+    UIImage *image = [UIImage imageNamed:@"120"];
+    
+    //添加View
+    [self.view addSubview:self.bgView];
+    [self.demoImageView setImage:image];
+    
+    //使用分类。改变bgView 的颜色
+    [self.bgView setBackgroundColor:[UIColor getImageMainColor:image]];
+    
+```
